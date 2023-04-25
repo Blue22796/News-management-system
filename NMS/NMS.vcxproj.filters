@@ -14,4 +14,24 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="user.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="admin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ndb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stateStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
