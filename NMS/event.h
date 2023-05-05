@@ -6,9 +6,9 @@
 #include "admin.h"
 #include<vector>
 
-class Comment;
+class comment;
 
-class Event
+class event
 {
 	std::string headline;
 	std::string date;
@@ -19,9 +19,9 @@ class Event
 	int spam;
 	int id;
 	std::string category;
-	std::vector <Comment> comments;
+	std::vector <comment> comments;
 public:
-	Event();
+	event();
 	void setHeadline(std::string headline);
 	std::string getHeadline();
 	std::string getDate();
@@ -33,8 +33,8 @@ public:
 	int getID();
 	void setCategory(std::string category);
 	std::string getCategory();
-	void addComment(Comment comment);
-	std::vector<Comment> getComments();
-	~Event();
+	void addComment(comment comment);
+	std::vector<comment> getComments();
+	~event();
 };
 #endif

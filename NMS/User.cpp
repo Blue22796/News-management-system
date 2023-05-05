@@ -36,11 +36,11 @@ void user::setPassword(std::string newPassword) {
     password = newPassword;
 }
 
-void user::reportSpam(Event event) {
+void user::reportSpam(event event) {
     spam++;
 }
 
-void user::rate(Event event, int rate) {
+void user::rate(event event, int rate) {
     // implementation
 }
 

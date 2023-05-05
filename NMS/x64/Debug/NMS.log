@@ -1,23 +1,5 @@
-﻿  Admin.cpp
-C:\Users\user\Desktop\NMS\NMS\Admin.cpp(3,6): error C2653: 'Admin': is not a class or namespace name
-  Comment.cpp
-C:\Users\user\Desktop\NMS\NMS\User.h(27,21): error C2061: syntax error: identifier 'Event'
-C:\Users\user\Desktop\NMS\NMS\User.h(28,15): error C2061: syntax error: identifier 'Event'
-  Event.cpp
-C:\Users\user\Desktop\NMS\NMS\User.h(27,21): error C2061: syntax error: identifier 'Event'
-C:\Users\user\Desktop\NMS\NMS\User.h(28,15): error C2061: syntax error: identifier 'Event'
+﻿  Event.cpp
   Source.cpp
   User.cpp
-C:\Users\user\Desktop\NMS\NMS\User.h(27,21): error C2061: syntax error: identifier 'Event'
-C:\Users\user\Desktop\NMS\NMS\User.h(28,15): error C2061: syntax error: identifier 'Event'
-C:\Users\user\Desktop\NMS\NMS\User.cpp(39,29): error C2761: 'void User::reportSpam(void)': redeclaration of member is not allowed
-C:\Users\user\Desktop\NMS\NMS\User.cpp(39,23): error C2065: 'Event': undeclared identifier
-C:\Users\user\Desktop\NMS\NMS\User.cpp(39,29): error C2146: syntax error: missing ')' before identifier 'event'
-C:\Users\user\Desktop\NMS\NMS\User.cpp(39,36): error C2143: syntax error: missing ';' before '{'
-C:\Users\user\Desktop\NMS\NMS\User.cpp(39,36): error C2447: '{': missing function header (old-style formal list?)
-C:\Users\user\Desktop\NMS\NMS\User.cpp(43,23): error C2761: 'void User::rate(void)': redeclaration of member is not allowed
-C:\Users\user\Desktop\NMS\NMS\User.cpp(43,17): error C2065: 'Event': undeclared identifier
-C:\Users\user\Desktop\NMS\NMS\User.cpp(43,23): error C2146: syntax error: missing ')' before identifier 'event'
-C:\Users\user\Desktop\NMS\NMS\User.cpp(43,40): error C2143: syntax error: missing ';' before '{'
-C:\Users\user\Desktop\NMS\NMS\User.cpp(43,40): error C2447: '{': missing function header (old-style formal list?)
   Generating Code...
+  NMS.vcxproj -> C:\Users\user\Desktop\nms\NMS\x64\Debug\NMS.exe

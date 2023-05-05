@@ -1,80 +1,80 @@
-#include "Event.h"
+#include "event.h"
 #include"Comment.h"
 #include "admin.h"
 #include<iostream>
 #include<vector>
-Event::Event()
+event::event()
 {
 
 }
 
-void Event::setHeadline(std::string headline)
+void event::setHeadline(std::string headline)
 {
 	this->headline = headline;
 }
 
-std::string Event::getHeadline()
+std::string event::getHeadline()
 {
 	return headline;
 }
 
-std::string Event::getDate()
+std::string event::getDate()
 {
 	return std::string();
 }
 
-void Event::setDetails(std::string details)
+void event::setDetails(std::string details)
 {
 	this->details = details;
 }
 
-std::string Event::getDetails()
+std::string event::getDetails()
 {
 	return details;
 }
 
-admin Event::getAuthor()
+admin event::getAuthor()
 {
 	return author;
 }
 
 
-float Event::getRate()
+float event::getRate()
 {
 	return rating;
 }
 
-int Event::getSpam()
+int event::getSpam()
 {
 	return spam;
 }
 
-int Event::getID()
+int event::getID()
 {
 	return id;
 }
 
-void Event::setCategory(std::string category)
+void event::setCategory(std::string category)
 {
 	this->category = category;
 }
 
-std::string Event::getCategory()
+std::string event::getCategory()
 {
 	return category;
 }
 
-void Event::addComment(Comment comment)
+void event::addComment(comment comment)
 {
 	comments.push_back(comment);
 }
 
-std::vector<Comment> Event::getComments()
+std::vector<comment> event::getComments()
 {
-	return std::vector<Comment>();
+	return std::vector<comment>();
 }
 
-Event::~Event()
+event::~event()
 {
 
 }
