@@ -5,8 +5,9 @@
 #include<vector>
 event::event()
 {
-
+	
 }
+
 
 void event::setHeadline(std::string headline)
 {
@@ -72,6 +73,15 @@ void event::addComment(comment comment)
 std::vector<comment> event::getComments()
 {
 	return std::vector<comment>();
+}
+void event::addRating(float rate)
+{
+	rating += rate;
+}
+
+void event::incrementRatingCount()
+{
+	views++;
 }
 
 event::~event()

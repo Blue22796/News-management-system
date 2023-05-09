@@ -2,6 +2,7 @@
 #define USER_H
 #include <vector>
 #include <string>
+using namespace std;
 
 class event;
 
@@ -25,8 +26,9 @@ public:
     void setPassword(std::string newPassword);
     void reportSpam(event event);
     void rate(event event, int rate);
-    void displayNews();
-    void displayNews(std::string category);
+    void displayNews(std::vector<event> events);
+
+    void displayNews(std::string category, vector<event> events);
 };
 
 #endif

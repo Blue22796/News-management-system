@@ -35,6 +35,8 @@ public:
 	std::string getCategory();
 	void addComment(comment comment);
 	std::vector<comment> getComments();
+	void addRating(float rate);
+	void incrementRatingCount();
 	~event();
 };
 #endif
