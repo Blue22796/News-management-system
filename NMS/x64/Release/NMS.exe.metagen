@@ -91,6 +91,22 @@ Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
 	hash=None, flags=None
 Assembly System.Windows.Input.Manipulations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
-Class $safeprojectname$.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class home: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getPanel(): PrivateScope, Public, HideBySig
+    loadList(): PrivateScope, Public, HideBySig
+Class state_stack: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    push(Panel): PrivateScope, Public, Static, HideBySig
+    pop(): PrivateScope, Public, Static, HideBySig
+    login(user*): PrivateScope, Public, Static, HideBySig
+    setWindow(Form): PrivateScope, Public, Static, HideBySig
+Class login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Panel panel : Public
+Class $safeprojectname$.window: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

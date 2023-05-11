@@ -11,7 +11,7 @@ class ndb {
 private:
 	ndb() {}
 	static std::map<std::string, user> users;
-	static std::set<event> news;
+	static std::multiset<event> news;
 	static ndb* inst;
 	
 public:
@@ -28,6 +28,7 @@ public:
 	void saveUser(user u);
 	void saveComment(comment c, event e);
 	std::vector<comment> getComments(event e);
+	std::multiset<event> getNews();
 	std::priority_queue<event> getSpam();
 	bool validateUser(System::String^ user, System::String^ pass);
 };

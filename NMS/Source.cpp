@@ -1,5 +1,4 @@
-#include "login.h"
-
+#include "Window.h"
 using namespace System;
 using namespace System::Windows::Forms;
 
@@ -8,6 +7,7 @@ using namespace System::Windows::Forms;
 int main(array<System::String^>^ args) {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	$safeprojectname$::Login form;
+	$safeprojectname$::window form;
+	state_stack::setWindow(%form);
 	Application::Run(% form);
 }

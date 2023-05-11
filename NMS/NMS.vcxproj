@@ -138,7 +138,9 @@
     <ClInclude Include="Header files\admin.h" />
     <ClInclude Include="comment.h" />
     <ClInclude Include="event.h" />
+    <ClInclude Include="home.h" />
     <ClInclude Include="login.h" />
+    <ClInclude Include="Window.h" />
     <ClInclude Include="ndb.h" />
     <ClInclude Include="stateStack.h" />
     <ClInclude Include="user.h" />

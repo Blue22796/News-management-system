@@ -5,7 +5,7 @@
 
 ndb* ndb::inst = new ndb();
 
-std::set<event> ndb::news = std::set<event>();
+std::multiset<event> ndb::news = std::multiset<event>();
 std::map<std::string,user> ndb::users = std::map<std::string, user>();
 
 ndb* ndb::getInstance() {
@@ -50,6 +50,11 @@ void ndb::saveComment(comment c, event e)
 std::vector<comment> ndb::getComments(event e)
 {
 	return std::vector<comment>();
+}
+
+std::multiset<event> ndb::getNews()
+{
+	return news;
 }
 
 std::priority_queue<event> ndb::getSpam()

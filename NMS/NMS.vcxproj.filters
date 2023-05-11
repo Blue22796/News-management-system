@@ -42,6 +42,12 @@
     <ClInclude Include="..\..\..\..\..\Program Files\MySQL\MySQL Connector C++ 8.0\include\jdbc\mysql_error.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="login.h">
       <Filter>Header Files</Filter>
     </ClInclude>
