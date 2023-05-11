@@ -1,0 +1,4 @@
+C:\Users\user\Desktop\nms\NMS\x64\Release\NMS.vcxproj.AssemblyReference.cache
+C:\Users\user\Desktop\nms\NMS\x64\Release\NMS.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\nms\NMS\x64\Release\NMS.vcxproj.ResolveComReference.cache
+C:\Users\user\Desktop\nms\NMS\x64\Release\NMS.exe

@@ -3,10 +3,17 @@
 #include "admin.h"
 #include<iostream>
 #include<vector>
+
 event::event()
 {
 
 }
+
+bool event::operator<(const event& e) const
+{
+	return rating < e.rating;
+}
+
 
 void event::setHeadline(std::string headline)
 {

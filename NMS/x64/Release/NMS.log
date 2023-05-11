@@ -1,0 +1,7 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2977,5): warning MSB3290: Failed to create the wrapper assembly for type library "{d37e2a3e-8545-3a39-9f4f-31827c9124ab}". Type library 'System_Drawing' was exported from a CLR assembly and cannot be re-imported as a CLR assembly.
+  ndb.cpp
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Activities.Presentation.dll : warning C4945: 'GeneratedInternalTypeHelper': cannot import symbol from 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Activities.Presentation.dll': as 'XamlGeneratedNamespace::GeneratedInternalTypeHelper' has already been imported from another assembly 'System.Activities.Core.Presentation'
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Activities.Presentation.dll : message : first seen type is used; re-order imported assemblies to use the current type
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Activities.Presentation.dll : message : This diagnostic occurred while importing type 'XamlGeneratedNamespace.GeneratedInternalTypeHelper' from assembly 'System.Activities.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  NMS.vcxproj -> C:\Users\user\Desktop\nms\NMS\x64\Release\NMS.exe
