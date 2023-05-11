@@ -6,7 +6,7 @@
 
 event::event()
 {
-
+	
 }
 
 bool event::operator<(const event& e) const
@@ -79,6 +79,15 @@ void event::addComment(comment comment)
 std::vector<comment> event::getComments()
 {
 	return std::vector<comment>();
+}
+void event::addRating(float rate)
+{
+	rating += rate;
+}
+
+void event::incrementRatingCount()
+{
+	views++;
 }
 
 event::~event()

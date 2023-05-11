@@ -5,6 +5,6 @@
 #include "user.h"
 
 class admin : user{
-	void displayNews(vector<event> events);
+	void displayNews();
 };
 #endif

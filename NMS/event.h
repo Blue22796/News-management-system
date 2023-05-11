@@ -20,7 +20,6 @@ class event
 	std::string category;
 	std::vector <comment> comments = std::vector<comment>(10);
 public:
-	event();
 	bool operator<(const event& e)const;
 	void setHeadline(std::string headline);
 	std::string getHeadline();
@@ -37,6 +36,5 @@ public:
 	std::vector<comment> getComments();
 	void addRating(float rate);
 	void incrementRatingCount();
-	~event();
 };
 #endif
